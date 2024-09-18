@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1 id="main-heading">Registration Form</h1>
+    <div class="main">
+        <div class="image">
+            <img src="study3.jpg" height="550px" width="400px">
+        </div>
+        <div class="form">
+            <form action="/action.php">
+                <br>
+                <h4 id="name">Name</h4>
+                <input type="text" placeholder="First">
+                <input typr="text" placeholder="last">
+                <br>
+                <h4>Contaxt No.</h4>
+                <input type="tel" placeholder="Enter your mobile number" max="10" required>
+                <br>
+                <h4>Date of Birth</h4>
+                <input type="date" placeholder="Please enter your date of birth" required>
+                <br>
+                <h4>Email</h4>
+                <input type="email" placeholder="john.doe@example.com" required>
+                <br>
+                <h4>Gender</h4>
+                <label id="101">
+                    <input type="radio" id="101" value="female" name="gender">Female
+                </label>
+                <label id="102">
+                    <input type="radio" id="102" value="male" name="gender">Male
+                </label>
+                <label id="103">
+                        <input type="radio" id="103" value="Other" name="gender">Others
+                </label>
+                <br>
+                <h4>Select your stream</h4>
+                <select>
+                    <option value="" disabled selected>Select</option>
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="m.tech">M.Tech</option>
+                    <option value="b.voc">B.Voc</option>
+                </select>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
